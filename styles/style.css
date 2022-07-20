@@ -18,6 +18,7 @@ left: 140px;
 margin-left: 300px;
 margin-top: 50px;
 border-radius: 30px;
+margin-bottom: 160px;
     
 }
 .tournament{
@@ -63,4 +64,133 @@ border-radius: 5px;
 padding: 16px 25px;
 background: #DD0000;
 text-align: center;
+}
+.container2{
+   margin-left: 150px;
+   margin-bottom: 10px;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   padding-left: 500px;
+   padding-bottom: 30px;
+   
+   
+ 
+}
+.all-setup{
+   background-color: #161616;
+   
+   width: 300px;
+height: 220px;
+border-radius: 10px;
+position: absolute;
+left: 300px;
+
+padding: 60px 15px;
+
+
+
+
+
+
+
+}
+.match{
+    font-size: 20px;
+    color: #161616;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 10px;
+
+   
+   
+}
+.three-button{
+    width: 252px;
+height: 64px;
+margin-left:  17px; 
+
+border-radius: 10px;
+background-color: #FFFFFF;
+text-align: center;
+margin-bottom: 10px;
+
+
+
+
+
+}
+.grp{
+    width: 252px;
+height: 64px;
+margin-left: 17px;
+text-align: center;
+border-radius: 10px;
+background-color:#FFFFFF;
+margin-top: 20px;
+margin-bottom: 10px;
+
+}
+.all-grp{
+    font-size: 20px;
+    color: #161616;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 10px;
+
+    
+   
+   
+}
+.blogs{
+    width: 252px;
+height: 64px;
+margin-left: 17px;
+text-align: center;
+
+border-radius: 10px;
+background-color: #DD0000;
+margin-top: 30px;
+
+
+
+ 
+}
+.blog{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-weight: 600;
+  
+    
+    text-align: center;
+    
+  
+
+}
+.m-sala{
+    width: 312px;
+height: 175px;
+border-radius: 10px 10px 0px 0px;
+margin-bottom: 30px;
+padding-right: 30px;
+}
+.size{
+    width: 100px;
+height: 32px;
+border-radius: 5px;
+margin-top: 10px;
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 16px;
+}
+.transfer-info{
+    font-family: 'Poppins';
+    font-weight: 600;
+font-size: 18px;
+width: 272px;
+height: 54px;
+display: flex;
+
+
+
 }
