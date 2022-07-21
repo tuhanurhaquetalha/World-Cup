@@ -19,6 +19,7 @@ margin-left: 300px;
 margin-top: 50px;
 border-radius: 30px;
 margin-bottom: 160px;
+m
     
 }
 .tournament{
@@ -72,12 +73,16 @@ text-align: center;
    grid-template-columns: repeat(4,1fr);
    padding-left: 500px;
    padding-bottom: 30px;
+   margin-top: 50px;
+   
    
    
  
 }
+
 .all-setup{
    background-color: #161616;
+   margin-top: 30px;
    
    width: 300px;
 height: 220px;
@@ -86,11 +91,6 @@ position: absolute;
 left: 300px;
 
 padding: 60px 15px;
-
-
-
-
-
 
 
 }
@@ -167,12 +167,24 @@ margin-top: 30px;
   
 
 }
+/* middle part start */
+.part1{
+   display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 10px;
+
+
+}
+.part2,.m-sala,.size,.transfer-info,.clock-mess,.clock-messa,.mess-side{
+    margin-top: 10px;
+}
 .m-sala{
     width: 312px;
 height: 175px;
 border-radius: 10px 10px 0px 0px;
 margin-bottom: 30px;
 padding-right: 30px;
+m
 }
 .size{
     width: 100px;
@@ -193,4 +205,65 @@ display: flex;
 
 
 
+
+}
+
+.clock-mess{
+    width: 143px;
+height: 26px;
+}
+.clock-messa{
+    width: 26px;
+height: 26px;
+font-family: 'Poppins';
+margin-right: 25px;
+}
+.mess-side{
+    margin-right: 5px;
+}
+/* middle part  */
+.last-part{
+   
+    background-color: #161616;
+    
+height: 444px;
+padding-left: 0%;
+margin-top: ;
+  
+   
+
+}
+.center{
+  
+}
+.gl{
+    text-align: center;
+    margin-bottom: 10px;
+    
+   
+color: #FFFFFF;
+}
+.adjust1{
+   
+   padding-left: 400px;
+   display: grid;
+   grid-template-columns: repeat(6,0.5fr);
+  
+   color: #B9B9B9;
+   font-family: 'Poppins';
+
+font-weight: 500;
+font-size: 16px;
+
+}
+.border{
+    width: 1320px;
+height: 0px;
+color: #FFFFFF;
+border: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.one-line{
+   
+   
 }
